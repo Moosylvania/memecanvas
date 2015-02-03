@@ -5,7 +5,7 @@ Node.js Meme Generator that uses Node-Canvas to render the final image.
         $ npm install memecanvas
 
 # Requirements
-memecanvas utilizes Automattic's node-canvas module which has some pre-requisites that must be installed on your machine.  To find out more please check out their [Wiki](https://github.com/Automattic/node-canvas/wiki).
+memecanvas utilizes Automattic's node-canvas module which has some pre-requisites that must be installed on your machine.  To find out more please check out their [Wiki](https://github.com/Automattic/node-canvas/wiki) and then come back here.
 
 # API
 
