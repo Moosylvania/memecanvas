@@ -58,7 +58,7 @@ memecanvas.generate = function(file, topText, bottomText, next){
                 parts.pop();
                 parts.push(appendedFilename+'.png');
 
-                memefilename = parts.join('.');
+                memefilename = parts.join('');
 
                 if(!fs.existsSync(outputDirectory)){
                     fs.mkdirSync(outputDirectory);
