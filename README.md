@@ -16,7 +16,7 @@ memecanvas utilizes Automattic's node-canvas module which has some pre-requisite
     var memecanvas = require('memecanvas');
     memecanvas.init('./tmp', '-meme');
     memecanvas.generate('./photo.png', 'Top of Meme', 'Bottom of Meme', function(error, memefilename){
-        if(err){
+        if(error){
             console.log(error);
         } else {
             console.log(memefilename);
