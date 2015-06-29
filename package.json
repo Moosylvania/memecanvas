@@ -1,6 +1,6 @@
 {
   "name": "memecanvas",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node.js Meme Generator using Node Canvas",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/Moosylvania/memecanvas",
   "dependencies": {
-    "canvas": "^1.2.1"
+    "async": "^1.3.0",
+    "canvas": "^1.2.3",
+    "colors": "^1.1.2",
+    "mkdirp": "^0.5.1"
   }
 }
